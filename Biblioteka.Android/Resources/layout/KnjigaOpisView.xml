@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Naslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvNaslov"
+        android:textColor="#ffb12727"
+        android:textSize="30dp"
+        android:paddingBottom="20dp" />
+    <TextView
+        android:text="Autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvAutor"
+        android:textColor="#ffb12727"
+        android:textSize="20dp"
+        android:paddingBottom="20dp" />
+    <TextView
+        android:text="Godina Izdanja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvGodinaIzdanja"
+        android:textColor="#ffb12727"
+        android:textSize="20dp"
+        android:paddingBottom="20dp" />
+    <TextView
+        android:text="Broj dostupnih knjiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvBrojDostupnihKnjiga"
+        android:textColor="#ffb12727"
+        android:textSize="20dp"
+        android:paddingBottom="20dp" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <Button
+            android:text="Otkazi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOtkazi" />
+        <Button
+            android:text="Iznajmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIznajmi"
+            android:layout_alignParentRight="true" />
+        <EditText
+            android:inputType="number"
+            android:hint="Broj knjiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etBrojKnjiga"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
